@@ -11,7 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_package(
-  LIBRARIES lms_simulator
   CATKIN_DEPENDS roscpp std_msgs
 )
 
@@ -21,6 +20,7 @@ include_directories(
   ${roscpp_INCLUDE_DIRS}
   ${std_msgs_INCLUDE_DIRS}
   ${GAZEBO_INCLUDE_DIRS}
+  "../../devel/include/"
 )
 
 link_directories(${GAZEBO_LIBRARY_DIRS})

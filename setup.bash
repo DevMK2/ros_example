@@ -11,3 +11,4 @@ export LD_LIBRARY_PATH=${SIMULATION_ROOT_DIR}/devel/lib:${LD_LIBRARY_PATH}
 
 # optional
 source /opt/ros/kinetic/setup.bash
+export ROS_PACKAGE_PATH=${SIMULATION_ROOT_DIR}/src:${ROS_PACKAGE_PATH}

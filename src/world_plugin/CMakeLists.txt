@@ -11,7 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_package(
-  LIBRARIES lms_simulator
   CATKIN_DEPENDS roscpp std_msgs
 )
 
