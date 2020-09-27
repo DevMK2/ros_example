@@ -2,15 +2,17 @@
 0. ros_example 디렉토리로 이동한다.
 1. catkin_make
 2. ~/.bashrc 파일을 열고 다음을 추가한다
+```
 source /home/mk/ws_study/ros_example/setup.bash
+```
 3. 터미널을 새로 실행한다
 4. ros_example/src/gazebo/launch 로 이동한다.
 5. roslaunch simulation.launch
 6. 새로운 터미널을 실행한다
 7. rosrun ros_msgs cli.py
 8. 7번에서 연 프로그램에서 
-a를 입력하면 회색 공이 빨간공에 다가와 부착되며
-d를 입력하면 탈착된다.
+- a를 입력하면 회색 공이 빨간공에 다가와 부착되며
+- d를 입력하면 탈착된다.
 
 # 패키지 설명
 1. ros_example/src/gazebo
