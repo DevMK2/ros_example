@@ -3,7 +3,7 @@
 1. catkin_make
 2. ~/.bashrc 파일을 열고 다음을 추가한다
 ```
-source /home/mk/ws_study/ros_example/setup.bash
+source ~/ros_example/setup.bash
 ```
 3. 터미널을 새로 실행한다
 4. ros_example/src/gazebo/launch 로 이동한다.
