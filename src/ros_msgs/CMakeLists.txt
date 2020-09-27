@@ -14,10 +14,10 @@ add_service_files(
     Detach.srv
 )
 
-add_message_files(
-	FILES
-    IsAttached.msg
-)
+#add_message_files(
+#	FILES
+#   example.msg
+#)
 
 generate_messages(
 	DEPENDENCIES

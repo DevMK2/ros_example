@@ -26,6 +26,7 @@ include_directories(
 link_directories(${GAZEBO_LIBRARY_DIRS})
 
 add_compile_options(-fPIC --std=c++14 -O2 -march=native)
+add_compile_options(-g)
 if(${DEBUG_BUILD})
     add_compile_options(-g)
 endif(${DEBUG_BUILD})
