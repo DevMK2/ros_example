@@ -9,14 +9,12 @@
 		</include>
 
         <include>
-            <uri>model://magnetic_box</uri>
-            <name>box1</name>
+            <uri>model://sphere</uri>
             <pose> 0 0 0 0 0 0 </pose>
         </include>
 
         <include>
-            <uri>model://magnetic_box</uri>
-            <name>box2</name>
+            <uri>model://magnetic_sphere</uri>
             <pose> 2 0 0 0 0 0 </pose>
         </include>
 

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <model name="magnetic_sphere">
+    <static>0</static>
+    <self_collide>1</self_collide>
+
+    <plugin name="magnetic_effect" filename="lib_magnetic_sphere.so"></plugin>
+
+    <link name="sphere_link">
+      <pose> 0 0 0.5 0 0 0 </pose>
+      <collision name="sphere_collision">
+        <geometry>
+          <sphere>
+              <radius> 0.5 </radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name="sphere_visual">
+        <geometry>
+          <sphere>
+              <radius> 0.5 </radius>
+          </sphere>
+        </geometry>
+        <material>
+            <ambient> 1 0 0 1 </ambient>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

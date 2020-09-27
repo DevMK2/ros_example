@@ -29,7 +29,7 @@ void SimulationWorld::initRos() {
 
 
     this->subscriberIsAttached = this->nh->subscribe(
-        "is_attached", 3, &SimulationWorld::callbackIsAttached, this
+        "/example/is_attached", 3, &SimulationWorld::callbackIsAttached, this
     );
 }
 

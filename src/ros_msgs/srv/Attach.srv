@@ -1,5 +1,2 @@
-string publisher
-bool   is_attached
-string name_poco
 ---
 bool ok
