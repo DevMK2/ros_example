@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ros_msgs)
 
+# 빌드 패키지 의존성 추가
 find_package(catkin REQUIRED COMPONENTS
     roscpp
     rospy
@@ -8,12 +9,14 @@ find_package(catkin REQUIRED COMPONENTS
 	message_generation
 )
 
+# 커스텀 ROS service 메시지 파일
 add_service_files(
 	FILES
     Attach.srv
     Detach.srv
 )
 
+# 커스텀 ROS topic 메시지 파일
 #add_message_files(
 #	FILES
 #   example.msg
